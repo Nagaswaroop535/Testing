@@ -1,4 +1,4 @@
-package EtoGruppe.Android;
+package Test.Android;
 
 
 import java.io.File;

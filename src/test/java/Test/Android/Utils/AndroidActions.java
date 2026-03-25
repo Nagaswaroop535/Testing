@@ -1,4 +1,4 @@
-package EtoGruppe.Android.Utils;
+package Test.Android.Utils;
 
 import java.time.Duration;
 

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T16:40:46 IST" name="Default suite" finished-at="2024-09-26T16:49:49 IST" duration-ms="542330">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T16:40:46 IST" name="Default test" finished-at="2024-09-26T16:49:49 IST" duration-ms="542330">
+      <class name="EtoGruppe.Android.TestCasesAndroid">
+        <test-method is-config="true" signature="server()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:40:46 IST" name="server" finished-at="2024-09-26T16:41:19 IST" duration-ms="33102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- server -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:41:19 IST" name="preSetup" finished-at="2024-09-26T16:41:45 IST" duration-ms="25521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="AMyProfileAssertion()[pri:1, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:41:45 IST" name="AMyProfileAssertion" finished-at="2024-09-26T16:42:01 IST" duration-ms="15976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMyProfileAssertion -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:42:01 IST" name="preSetup" finished-at="2024-09-26T16:42:10 IST" duration-ms="8791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MyProfilePersonalInformation()[pri:1, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:42:10 IST" name="MyProfilePersonalInformation" finished-at="2024-09-26T16:42:32 IST" duration-ms="22634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfilePersonalInformation -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:42:32 IST" name="preSetup" finished-at="2024-09-26T16:42:42 IST" duration-ms="9315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MyProfileCompanyInformation()[pri:2, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:42:42 IST" name="MyProfileCompanyInformation" finished-at="2024-09-26T16:42:46 IST" duration-ms="4834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfileCompanyInformation -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:42:46 IST" name="preSetup" finished-at="2024-09-26T16:42:56 IST" duration-ms="9730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MyProfileFamilyDetails()[pri:3, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:42:56 IST" name="MyProfileFamilyDetails" finished-at="2024-09-26T16:43:19 IST" duration-ms="22768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfileFamilyDetails -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:43:19 IST" name="preSetup" finished-at="2024-09-26T16:43:28 IST" duration-ms="8719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MyProfileQualificationDetails()[pri:4, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:43:28 IST" name="MyProfileQualificationDetails" finished-at="2024-09-26T16:43:52 IST" duration-ms="24296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfileQualificationDetails -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:43:52 IST" name="preSetup" finished-at="2024-09-26T16:44:00 IST" duration-ms="7615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MyProfileExperienceDetails()[pri:5, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:44:00 IST" name="MyProfileExperienceDetails" finished-at="2024-09-26T16:44:24 IST" duration-ms="24483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfileExperienceDetails -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:44:24 IST" name="preSetup" finished-at="2024-09-26T16:44:33 IST" duration-ms="9226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MyProfileContactInformation()[pri:6, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:44:33 IST" name="MyProfileContactInformation" finished-at="2024-09-26T16:44:54 IST" duration-ms="21160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfileContactInformation -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:44:54 IST" name="preSetup" finished-at="2024-09-26T16:45:05 IST" duration-ms="10230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MyProfileEmergencyContact()[pri:7, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:45:05 IST" name="MyProfileEmergencyContact" finished-at="2024-09-26T16:45:17 IST" duration-ms="12069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfileEmergencyContact -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:45:17 IST" name="preSetup" finished-at="2024-09-26T16:45:26 IST" duration-ms="9283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MatrixChat()[pri:8, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:45:26 IST" name="MatrixChat" finished-at="2024-09-26T16:46:22 IST" duration-ms="56315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MatrixChat -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:46:22 IST" name="preSetup" finished-at="2024-09-26T16:46:32 IST" duration-ms="10050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="HomePage()[pri:9, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:46:32 IST" name="HomePage" finished-at="2024-09-26T16:46:53 IST" duration-ms="20309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:46:53 IST" name="preSetup" finished-at="2024-09-26T16:47:03 IST" duration-ms="10340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MenuButtonAssertion()[pri:10, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:47:03 IST" name="MenuButtonAssertion" finished-at="2024-09-26T16:47:11 IST" duration-ms="7593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MenuButtonAssertion -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:47:11 IST" name="preSetup" finished-at="2024-09-26T16:47:20 IST" duration-ms="9689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="Addressbook()[pri:11, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:47:20 IST" name="Addressbook" finished-at="2024-09-26T16:47:30 IST" duration-ms="9706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addressbook -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:47:30 IST" name="preSetup" finished-at="2024-09-26T16:47:39 IST" duration-ms="9046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MyTeams()[pri:12, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:47:39 IST" name="MyTeams" finished-at="2024-09-26T16:47:49 IST" duration-ms="9620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyTeams -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:47:49 IST" name="preSetup" finished-at="2024-09-26T16:47:58 IST" duration-ms="9176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="MyBranch()[pri:13, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:47:58 IST" name="MyBranch" finished-at="2024-09-26T16:48:03 IST" duration-ms="4868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyBranch -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:48:03 IST" name="preSetup" finished-at="2024-09-26T16:48:13 IST" duration-ms="10139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="LocationSpecific()[pri:14, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:48:13 IST" name="LocationSpecific" finished-at="2024-09-26T16:48:17 IST" duration-ms="3759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LocationSpecific -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:48:17 IST" name="preSetup" finished-at="2024-09-26T16:48:26 IST" duration-ms="8984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="Faq()[pri:15, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:48:26 IST" name="Faq" finished-at="2024-09-26T16:48:30 IST" duration-ms="4270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Faq -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:48:30 IST" name="preSetup" finished-at="2024-09-26T16:48:39 IST" duration-ms="9037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="EtoLocations()[pri:16, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:48:39 IST" name="EtoLocations" finished-at="2024-09-26T16:49:03 IST" duration-ms="23960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EtoLocations -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:49:03 IST" name="preSetup" finished-at="2024-09-26T16:49:13 IST" duration-ms="10182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="CompanyCalendar()[pri:17, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:49:13 IST" name="CompanyCalendar" finished-at="2024-09-26T16:49:17 IST" duration-ms="4017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompanyCalendar -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:49:17 IST" name="preSetup" finished-at="2024-09-26T16:49:25 IST" duration-ms="7468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="SettingsAssertions()[pri:18, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:49:25 IST" name="SettingsAssertions" finished-at="2024-09-26T16:49:29 IST" duration-ms="4031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingsAssertions -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:49:29 IST" name="preSetup" finished-at="2024-09-26T16:49:38 IST" duration-ms="9257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="SocialWallPostCreation()[pri:19, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:49:38 IST" name="SocialWallPostCreation" finished-at="2024-09-26T16:49:45 IST" duration-ms="6977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SocialWallPostCreation -->
+        <test-method is-config="true" signature="stopScreenRecording()[pri:0, instance:EtoGruppe.Android.TestCasesAndroid@5b1669c0]" started-at="2024-09-26T16:49:45 IST" name="stopScreenRecording" finished-at="2024-09-26T16:49:49 IST" duration-ms="3745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopScreenRecording -->
+      </class> <!-- EtoGruppe.Android.TestCasesAndroid -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

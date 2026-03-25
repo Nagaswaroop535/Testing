@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="AMyProfileAssertion">AMyProfileAssertion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="Addressbook">Addressbook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="CompanyCalendar">CompanyCalendar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="EtoLocations">EtoLocations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="Faq">Faq</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="HomePage">HomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="LocationSpecific">LocationSpecific</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MatrixChat">MatrixChat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MenuButtonAssertion">MenuButtonAssertion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MyBranch">MyBranch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MyProfileCompanyInformation">MyProfileCompanyInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MyProfileContactInformation">MyProfileContactInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MyProfileEmergencyContact">MyProfileEmergencyContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MyProfileExperienceDetails">MyProfileExperienceDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MyProfileFamilyDetails">MyProfileFamilyDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MyProfilePersonalInformation">MyProfilePersonalInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MyProfileQualificationDetails">MyProfileQualificationDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="MyTeams">MyTeams</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="SettingsAssertions">SettingsAssertions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="EtoGruppe.Android.TestCasesAndroid" class="method navigator-link" hash-for-method="SocialWallPostCreation">SocialWallPostCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">EtoGruppe.Android.TestCasesAndroid</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AMyProfileAssertion">
+                  </a> <!-- AMyProfileAssertion -->
+                  <span class="method-name">AMyProfileAssertion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addressbook">
+                  </a> <!-- Addressbook -->
+                  <span class="method-name">Addressbook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CompanyCalendar">
+                  </a> <!-- CompanyCalendar -->
+                  <span class="method-name">CompanyCalendar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EtoLocations">
+                  </a> <!-- EtoLocations -->
+                  <span class="method-name">EtoLocations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Faq">
+                  </a> <!-- Faq -->
+                  <span class="method-name">Faq</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomePage">
+                  </a> <!-- HomePage -->
+                  <span class="method-name">HomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LocationSpecific">
+                  </a> <!-- LocationSpecific -->
+                  <span class="method-name">LocationSpecific</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MatrixChat">
+                  </a> <!-- MatrixChat -->
+                  <span class="method-name">MatrixChat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MenuButtonAssertion">
+                  </a> <!-- MenuButtonAssertion -->
+                  <span class="method-name">MenuButtonAssertion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyBranch">
+                  </a> <!-- MyBranch -->
+                  <span class="method-name">MyBranch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyProfileCompanyInformation">
+                  </a> <!-- MyProfileCompanyInformation -->
+                  <span class="method-name">MyProfileCompanyInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyProfileContactInformation">
+                  </a> <!-- MyProfileContactInformation -->
+                  <span class="method-name">MyProfileContactInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyProfileEmergencyContact">
+                  </a> <!-- MyProfileEmergencyContact -->
+                  <span class="method-name">MyProfileEmergencyContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyProfileExperienceDetails">
+                  </a> <!-- MyProfileExperienceDetails -->
+                  <span class="method-name">MyProfileExperienceDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyProfileFamilyDetails">
+                  </a> <!-- MyProfileFamilyDetails -->
+                  <span class="method-name">MyProfileFamilyDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyProfilePersonalInformation">
+                  </a> <!-- MyProfilePersonalInformation -->
+                  <span class="method-name">MyProfilePersonalInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyProfileQualificationDetails">
+                  </a> <!-- MyProfileQualificationDetails -->
+                  <span class="method-name">MyProfileQualificationDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyTeams">
+                  </a> <!-- MyTeams -->
+                  <span class="method-name">MyTeams</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SettingsAssertions">
+                  </a> <!-- SettingsAssertions -->
+                  <span class="method-name">SettingsAssertions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SocialWallPostCreation">
+                  </a> <!-- SocialWallPostCreation -->
+                  <span class="method-name">SocialWallPostCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/7q/v2_dshqj1k32yqq8nckx17yc0000gn/T/testng-eclipse-1505233339/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;EtoGruppe.Android.TestCasesAndroid&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'MatrixChat')
+data.setCell(0, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(0, 3, 56315);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'MyProfileExperienceDetails')
+data.setCell(1, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(1, 3, 24483);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'MyProfileQualificationDetails')
+data.setCell(2, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(2, 3, 24296);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'EtoLocations')
+data.setCell(3, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(3, 3, 23960);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'MyProfileFamilyDetails')
+data.setCell(4, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(4, 3, 22768);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'MyProfilePersonalInformation')
+data.setCell(5, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(5, 3, 22634);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'MyProfileContactInformation')
+data.setCell(6, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(6, 3, 21160);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'HomePage')
+data.setCell(7, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(7, 3, 20309);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AMyProfileAssertion')
+data.setCell(8, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(8, 3, 15976);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'MyProfileEmergencyContact')
+data.setCell(9, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(9, 3, 12069);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Addressbook')
+data.setCell(10, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(10, 3, 9706);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'MyTeams')
+data.setCell(11, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(11, 3, 9620);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'MenuButtonAssertion')
+data.setCell(12, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(12, 3, 7593);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'SocialWallPostCreation')
+data.setCell(13, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(13, 3, 6977);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'MyBranch')
+data.setCell(14, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(14, 3, 4868);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'MyProfileCompanyInformation')
+data.setCell(15, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(15, 3, 4834);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Faq')
+data.setCell(16, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(16, 3, 4270);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'SettingsAssertions')
+data.setCell(17, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(17, 3, 4031);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'CompanyCalendar')
+data.setCell(18, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(18, 3, 4017);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'LocationSpecific')
+data.setCell(19, 2, 'EtoGruppe.Android.TestCasesAndroid')
+data.setCell(19, 3, 3759);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">EtoGruppe.Android.TestCasesAndroid</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">LoginPageAndroid</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">EtoGruppe.Android.TestCasesAndroid</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">server</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">33107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AMyProfileAssertion</span>
+                <span class="method-start">58629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">74607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyProfilePersonalInformation</span>
+                <span class="method-start">83398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">106034 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyProfileCompanyInformation</span>
+                <span class="method-start">115349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">120184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyProfileFamilyDetails</span>
+                <span class="method-start">129914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">152683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyProfileQualificationDetails</span>
+                <span class="method-start">161402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">185700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyProfileExperienceDetails</span>
+                <span class="method-start">193315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">217799 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyProfileContactInformation</span>
+                <span class="method-start">227025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">248186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyProfileEmergencyContact</span>
+                <span class="method-start">258416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">270486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MatrixChat</span>
+                <span class="method-start">279769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">336085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">HomePage</span>
+                <span class="method-start">346135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">366445 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MenuButtonAssertion</span>
+                <span class="method-start">376785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">384378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Addressbook</span>
+                <span class="method-start">394067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">403774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyTeams</span>
+                <span class="method-start">412820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">422441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyBranch</span>
+                <span class="method-start">431617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">436486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LocationSpecific</span>
+                <span class="method-start">446625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">450384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Faq</span>
+                <span class="method-start">459368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">463639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EtoLocations</span>
+                <span class="method-start">472676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">496637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CompanyCalendar</span>
+                <span class="method-start">506819 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">510836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SettingsAssertions</span>
+                <span class="method-start">518304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">522336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SocialWallPostCreation</span>
+                <span class="method-start">531593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">stopScreenRecording</span>
+                <span class="method-start">538571 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
